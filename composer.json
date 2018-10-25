@@ -1,0 +1,12 @@
+{
+    "name": "geralt/php2.uni.local",
+    "authors": [
+        {
+            "name": "Geralt",
+            "email": "matkowton@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}
