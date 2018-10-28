@@ -19,7 +19,7 @@ class TwigRenderer implements IRenderer
 
     public function render($template, $params = [])
     {
-        $template .= 'twig';
+        $template .= '.twig';
         return $this->$twig->render($template, $params);
 
     }

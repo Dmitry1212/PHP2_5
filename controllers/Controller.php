@@ -7,12 +7,12 @@ use app\services\renderers\TemplateRenderer;
 
 abstract class Controller
 {
-    private $action;
-    private $defaultAction = 'index';
-    private $layout = "main";
-    private $useLayout = true;
+    protected $action;
+    protected $defaultAction = 'index';
+    protected $layout = "main";
+    protected $useLayout = true;
 
-    private $renderer = null;
+    protected $renderer = null;
 
     /**
      * Controller constructor.
